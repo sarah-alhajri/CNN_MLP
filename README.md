@@ -1,1 +1,4 @@
 # CNN_MLP
+The project is about building a machine learning model to predict the speed at which a pet is adopted based on its listing on PetFinder (https://www.kaggle.com/c/petfinder-adoption-prediction).
+This is a multi-class classification problem where the model should predict one of five classes based on the pet's characteristics and image data. The dataset contains categorical, numerical, and image data, and the preprocessing steps involve loading the dataset, splitting it into train and test sets, encoding categorical data as one-hot representation, normalizing continuous data, and resizing pet images.
+The model is built using both Multi-Layer Perceptron(MLP) and Convolutional Neural Network(CNN) and trained using Adam optimizer and an appropriate loss function. Finally, the model is evaluated based on its accuracy, precision, recall, and f1-score using macro averaging to calculate the global values of these measures.
